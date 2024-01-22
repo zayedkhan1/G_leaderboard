@@ -1,0 +1,22 @@
+/* players section style */
+.players{
+    display: grid;
+    /* grid-template-columns: repeat(3,1fr);3 ta column 1 fr kore */
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.player{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+
+}
+.player img{
+    height: 56px;
+    width: 56px;
+    
+}
+
+
+
+
+/* players section style */
