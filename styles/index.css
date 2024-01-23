@@ -178,7 +178,44 @@ margin-right: 10px;
 
 
 
-
-
-
 /* latest course section style */
+
+
+/* making resposniveness */
+@media screen and (max-width:576px) {
+
+.players{
+    background-color:burlywood;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+}
+.container{
+    width: 100%;
+}
+    
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background-color: #ED6B4F;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background-color: aqua;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* making resposniveness */
